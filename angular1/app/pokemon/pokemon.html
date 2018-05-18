@@ -1,0 +1,23 @@
+<section class="content-header">
+  <h1>Pokemon</h1>
+</section>
+<section>
+  <div class="">
+    <label >Pesquisar pokemon: </label>
+    <select ng-model="selectPokemon">
+      <option value="" disabled="true" selected>Selecione...</option>
+      <option value="Bulbasaur">Bulbasaur</option>
+      <option value="Charmander">Charmander</option>
+      <option value="Squirtle">Squirtle</option>
+      <option value="Caterpie">Caterpie</option>
+      <option value="Weedle">Weedle</option>
+      <option value="Pidgey">Pidgey</option>
+      <option value="Rattata">Rattata</option>
+      <option value="Fearow">Fearow</option>
+      <option value="Pikachu">Pikachu</option>
+      <option value="Sandshrew">Sandshrew</option>
+    </select>
+    <p>Pokemon Selecionado: <font color="blue">{{selectPokemon}}</font></p>
+    <button type="button" name="pesquisarPokemon">Pesquisar</button>
+  </div>
+</section>

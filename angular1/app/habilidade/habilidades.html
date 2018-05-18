@@ -1,0 +1,23 @@
+<section class="content-header">
+  <h1>Habilidades</h1>
+</section>
+<section>
+  <div class="">
+    <label>Pesquisar Habilidades: </label>
+    <select name="habilidades" ng-model="selectHabilidades">
+      <option value="" disabled="true" selected>Selecione...</option>
+      <option value="Adaptibility">Adaptibility</option>
+      <option value="Aftermath">Aftermath</option>
+      <option value="AirLock">Air Lock</option>
+      <option value="Anger Point">Anger Point</option>
+      <option value="Anticipation">Anticipation</option>
+      <option value="Arena Trap">Arena Trap</option>
+      <option value="Bad Dreams">Bad Dreams</option>
+      <option value="Battle Armor ">Battle Armor </option>
+      <option value="Early Bird">Early Bird</option>
+      <option value="Effect Spore">Effect Spore</option>
+    </select>
+    <p>Habilidade Selecionada: <font color="blue">{{selectHabilidades}}</font></p>
+    <button type="button" name="pesquisarHabilidade">Pesquisar</button>
+  </div>
+</section>
